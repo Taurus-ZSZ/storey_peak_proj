@@ -1,0 +1,8 @@
+	component mysystem is
+		port (
+			clk_clk        : in    std_logic                    := 'X';             -- clk
+			pio_led_export : inout std_logic_vector(3 downto 0) := (others => 'X'); -- export
+			reset_reset_n  : in    std_logic                    := 'X'              -- reset_n
+		);
+	end component mysystem;
+

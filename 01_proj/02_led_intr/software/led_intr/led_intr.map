@@ -1,0 +1,573 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+                              obj/default/led_intr.o (alt_ic_isr_register)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o) (alt_irq_active)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o (alt_load)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o (alt_main)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+                              /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+led_en              0x1               obj/default/led_intr.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000000000 0x0000000000000020
+onchip_rom       0x0000000000000020 0x0000000000000fe0
+onchip_ram_BEFORE_EXCEPTION 0x0000000000002000 0x0000000000000020
+onchip_ram       0x0000000000002020 0x0000000000000fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/led_intr.o
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libstdc++.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libm.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+START GROUP
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+LOAD /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libm.a
+END GROUP
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+                0x0000000000000000                __alt_mem_onchip_rom = 0x0
+                0x0000000000002000                __alt_mem_onchip_ram = 0x2000
+
+.entry          0x0000000000000000       0x20
+ *(.entry)
+ .entry         0x0000000000000000       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+                0x0000000000000000                __reset
+                0x000000000000001c                _exit
+
+.exceptions     0x0000000000002020      0x168
+                0x0000000000002020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000002020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000002020        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000002020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000002020        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000002020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000002020       0x54 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000002074       0x10 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000002084        0x4 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000002088        0x4 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000000208c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000000208c        0x8 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000002094       0x14 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000020a8        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000020a8        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000020a8       0x54 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000020fc       0x60 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000020fc                alt_irq_handler
+ .exceptions    0x000000000000215c       0x2c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000000215c                alt_instruction_exception_entry
+                0x0000000000002188                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000002020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000002188      0x4b4
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002188       0x4c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+                0x0000000000002188                _start
+ .text          0x00000000000021d4      0x16c obj/default/led_intr.o
+                0x00000000000021d4                const_ip_isr
+                0x0000000000002258                main
+ .text          0x0000000000002340       0x8c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+                0x0000000000002340                alt_ic_isr_register
+                0x0000000000002344                alt_ic_irq_enable
+                0x000000000000237c                alt_ic_irq_disable
+                0x00000000000023b4                alt_ic_irq_enabled
+ .text          0x00000000000023cc       0x68 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000000023cc                alt_iic_isr_register
+ .text          0x0000000000002434        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000002434        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000002434        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000002434       0xe0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000000002434                alt_load
+ .text          0x0000000000002514       0x2c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000002514                alt_main
+ .text          0x0000000000002540       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000000002540                alt_irq_init
+                0x0000000000002560                alt_sys_init
+ .text          0x0000000000002564       0x18 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000002564                alt_dcache_flush_all
+ .text          0x000000000000257c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .text          0x000000000000257c        0xc /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x000000000000257c                alt_icache_flush_all
+ .text          0x0000000000002588       0x74 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000002588                alt_exception_cause_generated_bad_addr
+ .text          0x00000000000025fc        0x8 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000025fc                altera_nios2_gen2_irq_init
+ .text          0x0000000000002604       0x38 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000002604                alt_icache_flush
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000000263c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x000000000000263c                . = ALIGN (0x4)
+
+.rodata         0x000000000000263c        0x0
+                0x000000000000263c                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000000000000263c                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *(.rodata1)
+                0x000000000000263c                . = ALIGN (0x4)
+                0x000000000000263c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000000000000263c                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000000263c        0x4 load address 0x0000000000002640
+                0x000000000000263c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000000263c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000000263c        0x0 obj/default/led_intr.o
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000000263c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x000000000000a63c                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000000263c        0x4 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x000000000000263c                alt_priority_mask
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000002640                . = ALIGN (0x4)
+                0x0000000000002640                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000002640                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000002640                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000002644      0x118
+                0x0000000000002644                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000002644        0x1 obj/default/led_intr.o
+                0x0000000000002644                led_en
+ *fill*         0x0000000000002645        0x3 
+ .sbss          0x0000000000002648        0x4 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000002648                alt_irq_active
+ .sbss          0x000000000000264c        0xc /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+                0x000000000000264c                alt_envp
+                0x0000000000002650                alt_argv
+                0x0000000000002654                alt_argc
+ .sbss          0x0000000000002658        0x4 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000002658                alt_instruction_exception_handler
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .bss           0x000000000000265c        0x0 obj/default/led_intr.o
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000000000000265c        0x0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+ *(COMMON)
+ COMMON         0x000000000000265c      0x100 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x000000000000265c                alt_irq
+                0x000000000000275c                . = ALIGN (0x4)
+                0x000000000000275c                __bss_end = ABSOLUTE (.)
+
+.onchip_rom     0x0000000000000020        0x0 load address 0x000000000000275c
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_start, ABSOLUTE (.))
+ *(.onchip_rom .onchip_rom. onchip_rom.*)
+                0x0000000000000020                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_load_addr, LOADADDR (.onchip_rom))
+
+.onchip_ram     0x000000000000275c        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_start, ABSOLUTE (.))
+ *(.onchip_ram .onchip_ram. onchip_ram.*)
+                0x000000000000275c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_end, ABSOLUTE (.))
+                0x000000000000275c                _end = ABSOLUTE (.)
+                0x000000000000275c                end = ABSOLUTE (.)
+                0x000000000000275c                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_load_addr, LOADADDR (.onchip_ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/led_intr.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x230
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/led_intr.o
+ .debug_aranges
+                0x0000000000000048       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x0000000000000068       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000088       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000000000000b8       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000000000000d8       0x18 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000000000000f0       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000110       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000130       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000150       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000170       0x38 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000001c8       0x28 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000000000001f0       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000210       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x1372
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x7f /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000007f      0x134 obj/default/led_intr.o
+ .debug_info    0x00000000000001b3      0x38a /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000000000000053d      0x232 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000000000000076f       0x88 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00000000000007f7      0x184 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x000000000000097b       0x88 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000000a03      0x1c9 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000000bcc      0x169 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000d35       0xe9 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000000e1e       0xa6 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000000ec4       0x8e /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000000f52       0xb8 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000100a      0x1f8 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000001202       0x92 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000001294       0xde /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug_abbrev   0x0000000000000000      0xa87
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0xbe obj/default/led_intr.o
+ .debug_abbrev  0x00000000000000d0      0x1a0 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000000270      0x19c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000000000000040c       0x12 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x000000000000041e      0x120 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x000000000000053e       0x40 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x000000000000057e       0xd8 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000656       0xee /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000744       0xb3 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000000000007f7       0x5a /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000851       0x12 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000000863       0x6f /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000000000008d2       0xd8 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x00000000000009aa       0x42 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x00000000000009ec       0x9b /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug_line     0x0000000000000000      0x9bb
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x126 obj/default/led_intr.o
+ .debug_line    0x0000000000000198       0xf1 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000000289       0xd6 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x000000000000035f       0x6b /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00000000000003ca       0xa5 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000000000000046f       0x50 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00000000000004bf       0xa4 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000563       0xbd /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000620       0x8d /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000006ad       0x5a /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000707       0xb3 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000000000007ba       0x6e /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000828       0xc6 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x00000000000008ee       0x50 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x000000000000093e       0x7d /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug_frame    0x0000000000000000      0x24c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x50 obj/default/led_intr.o
+ .debug_frame   0x0000000000000050       0x50 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000000000000a0       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000000000000d0       0x34 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000104       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000134       0x2c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000160       0x3c /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000000000000019c       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000001bc       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000000000001dc       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x000000000000020c       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x000000000000022c       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug_str      0x0000000000000000      0xa52
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x12f obj/default/led_intr.o
+                                        0x16d (size before relaxing)
+ .debug_str     0x000000000000012f      0x197 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+                                        0x25e (size before relaxing)
+ .debug_str     0x00000000000002c6       0x37 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x218 (size before relaxing)
+ .debug_str     0x00000000000002fd       0x3a /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                        0x1a2 (size before relaxing)
+ .debug_str     0x0000000000000337       0x17 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                        0x145 (size before relaxing)
+ .debug_str     0x000000000000034e      0x113 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+                                        0x247 (size before relaxing)
+ .debug_str     0x0000000000000461       0x8f /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_main.o)
+                                        0x1c0 (size before relaxing)
+ .debug_str     0x00000000000004f0       0x4d /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x000000000000053d       0x1f /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x160 (size before relaxing)
+ .debug_str     0x000000000000055c       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x171 (size before relaxing)
+ .debug_str     0x000000000000058c      0x48b /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x5ab (size before relaxing)
+ .debug_str     0x0000000000000a17       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x167 (size before relaxing)
+ .debug_str     0x0000000000000a37       0x1b /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+                                        0x166 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x4b6
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x170 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x0000000000000170      0x193 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x0000000000000303       0x72 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000000000000375       0x21 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000000396       0x1f /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000000000003b5       0xaf /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_loc     0x0000000000000464       0x52 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+                0x0000000000003000                __alt_data_end = 0x3000
+                0x0000000000003000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x3000)
+OUTPUT(led_intr.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0xf8
+ .debug_ranges  0x0000000000000000       0x20 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x28 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000048       0x10 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000058       0x48 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x00000000000000a0       0x30 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000000d0       0x18 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x00000000000000e8       0x10 /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/software/led_intr_bsp//libhal_bsp.a(alt_icache_flush.o)
