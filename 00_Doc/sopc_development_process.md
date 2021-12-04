@@ -36,7 +36,7 @@ sopc 开发流程包括硬件设计quartus与软件设计Nios IDE
 5. 导入的工程需要注意sopcinfo使用的还是之前的（查看方法，BSP_Editor ），修改xxx_bsp工程下的settings.bsp文件，大概在第7行有一个bspGeneratedLocation的文件路径<BspGeneratedLocation>/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/01_hello_led/software/hello_led_bsp</BspGeneratedLocation>。
 6. clean project 清除工程缓存。
 7. refresh 两个工程。
-8. 在工程properties 中，将app 工程将bsp工程关联起来。
+8. 在工程properties 中选择Project References 中的相关BSP，将app 工程将bsp工程关联起来。
 
 
 

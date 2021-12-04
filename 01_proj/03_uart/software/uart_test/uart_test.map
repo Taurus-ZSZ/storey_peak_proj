@@ -1,0 +1,514 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o (alt_load)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o (alt_main)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+                              obj/default/uart_test.o (alt_putstr)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o) (altera_avalon_uart_write)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o) (alt_errno)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o) (errno)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000000000 0x0000000000000020
+onchip_rom       0x0000000000000020 0x0000000000000fe0
+onchip_ram_BEFORE_EXCEPTION 0x0000000000002000 0x0000000000000020
+onchip_ram       0x0000000000002020 0x0000000000000fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/uart_test.o
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libstdc++.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libm.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+START GROUP
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+LOAD /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libm.a
+END GROUP
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+                0x0000000000000000                __alt_mem_onchip_rom = 0x0
+                0x0000000000002000                __alt_mem_onchip_ram = 0x2000
+
+.entry          0x0000000000000000       0x20
+ *(.entry)
+ .entry         0x0000000000000000       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000000000                __reset
+                0x000000000000001c                _exit
+
+.exceptions     0x0000000000002020        0x0
+                0x0000000000002020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000002020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000002020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000002020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000002020      0x2d0
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002020       0x4c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000002020                _start
+ .text          0x000000000000206c        0x0 obj/default/uart_test.o
+ .text.startup  0x000000000000206c       0x18 obj/default/uart_test.o
+                0x000000000000206c                main
+ .text          0x0000000000002084       0xe0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000000002084                alt_load
+ .text          0x0000000000002164       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000002164                alt_main
+ .text          0x0000000000002190       0x38 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+                0x0000000000002190                alt_putstr
+ .text          0x00000000000021c8       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x00000000000021c8                alt_irq_init
+                0x00000000000021e8                alt_sys_init
+ .text          0x00000000000021ec       0x84 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+                0x00000000000021ec                altera_avalon_uart_write
+ .text          0x0000000000002270       0x18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000002270                alt_dcache_flush_all
+ .text          0x0000000000002288        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000002288        0xc /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000002288                alt_icache_flush_all
+ .text          0x0000000000002294        0x8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000002294                altera_nios2_gen2_irq_init
+ .text          0x000000000000229c       0x38 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x000000000000229c                alt_icache_flush
+ .text          0x00000000000022d4        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .text          0x00000000000022d4        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x00000000000022d4       0x1c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                0x00000000000022d4                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00000000000022f0                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00000000000022f0                . = ALIGN (0x4)
+
+.rodata         0x00000000000022f0       0x18
+                0x00000000000022f0                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00000000000022f0                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000000000022f0       0x18 obj/default/uart_test.o
+                                         0x15 (size before relaxing)
+ *(.rodata1)
+                0x0000000000002308                . = ALIGN (0x4)
+                0x0000000000002308                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00000000000022f0                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000002308        0x8 load address 0x0000000000002310
+                0x0000000000002308                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000002308                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000002308        0x0 obj/default/uart_test.o
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000002308        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000000000002308        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000002308        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                0x000000000000a308                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000002308        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000000002308                uart_0
+ .sdata         0x000000000000230c        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+                0x000000000000230c                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000002310                . = ALIGN (0x4)
+                0x0000000000002310                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000002310                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000002310                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000002318       0x10
+                0x0000000000002318                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000002318        0xc /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000002318                alt_envp
+                0x000000000000231c                alt_argv
+                0x0000000000002320                alt_argc
+ .sbss          0x0000000000002324        0x4 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+                0x0000000000002324                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000002328        0x0 obj/default/uart_test.o
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000002328        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000002328        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000002328        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ *(COMMON)
+                0x0000000000002328                . = ALIGN (0x4)
+                0x0000000000002328                __bss_end = ABSOLUTE (.)
+
+.onchip_rom     0x0000000000000020        0x0 load address 0x0000000000002328
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_start, ABSOLUTE (.))
+ *(.onchip_rom .onchip_rom. onchip_rom.*)
+                0x0000000000000020                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_load_addr, LOADADDR (.onchip_rom))
+
+.onchip_ram     0x0000000000002328        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_start, ABSOLUTE (.))
+ *(.onchip_ram .onchip_ram. onchip_ram.*)
+                0x0000000000002328                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_end, ABSOLUTE (.))
+                0x0000000000002328                _end = ABSOLUTE (.)
+                0x0000000000002328                end = ABSOLUTE (.)
+                0x0000000000002328                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_load_addr, LOADADDR (.onchip_ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/uart_test.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/uart_test.o
+ .debug_aranges
+                0x0000000000000048       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000108       0x18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000120       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000140       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000160       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000180       0x18 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000198       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0xd40
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x83 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000083       0x65 obj/default/uart_test.o
+ .debug_info    0x00000000000000e8      0x1c9 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000000000002b1      0x169 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x000000000000041a      0x13a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_info    0x0000000000000554      0x15f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000000000006b3      0x1c6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_info    0x0000000000000879       0xa6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000091f       0xa6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00000000000009c5       0xb8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000000a7d       0x92 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000000b0f       0xde /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000000bed       0x8a /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000000c77       0xc9 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x0000000000000000      0x7ad
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x64 obj/default/uart_test.o
+ .debug_abbrev  0x0000000000000076       0xd8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000000000014e       0xee /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000000000000023c       0xd3 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_abbrev  0x000000000000030f      0x100 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000040f       0xe8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_abbrev  0x00000000000004f7       0x5a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000551       0x5a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000000000005ab       0x6f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x000000000000061a       0x42 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000065c       0x9b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x00000000000006f7       0x37 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x000000000000072e       0x7f /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug_line     0x0000000000000000      0x879
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072       0xab obj/default/uart_test.o
+ .debug_line    0x000000000000011d       0xa4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000001c1       0xbd /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x000000000000027e       0x9f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_line    0x000000000000031d       0xcf /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000003ec       0xec /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_line    0x00000000000004d8       0x5a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000532       0x51 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000000583       0x6e /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000000000005f1       0x50 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000000641       0x7d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x00000000000006be       0x5f /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000000000000071d      0x15c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug_frame    0x0000000000000000      0x1c4
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x28 obj/default/uart_test.o
+ .debug_frame   0x0000000000000028       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000058       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000084       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_frame   0x00000000000000b4       0x3c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000000f0       0x34 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_frame   0x0000000000000124       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000144       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000164       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000184       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x00000000000001a4       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug_str      0x0000000000000000      0x6c6
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xa5 obj/default/uart_test.o
+                                         0xaa (size before relaxing)
+ .debug_str     0x00000000000000a5      0x1cf /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+                                        0x24b (size before relaxing)
+ .debug_str     0x0000000000000274       0x8f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_main.o)
+                                        0x1c4 (size before relaxing)
+ .debug_str     0x0000000000000303       0x57 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+                                        0x192 (size before relaxing)
+ .debug_str     0x000000000000035a       0x66 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x203 (size before relaxing)
+ .debug_str     0x00000000000003c0       0x5f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+                                        0x218 (size before relaxing)
+ .debug_str     0x000000000000041f       0x1f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x164 (size before relaxing)
+ .debug_str     0x000000000000043e       0x14 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_errno.o)
+                                        0x154 (size before relaxing)
+ .debug_str     0x0000000000000452       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x175 (size before relaxing)
+ .debug_str     0x0000000000000482       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x16b (size before relaxing)
+ .debug_str     0x00000000000004a2       0x1b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+                                        0x16a (size before relaxing)
+ .debug_str     0x00000000000004bd      0x131 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+                                        0x1d5 (size before relaxing)
+ .debug_str     0x00000000000005ee       0xd8 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                                        0x1e2 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x243
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x37 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_loc     0x0000000000000037       0x21 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000000058      0x15c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_loc     0x00000000000001b4       0x1f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000000000001d3       0x52 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x0000000000000225       0x1e /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000003000                __alt_data_end = 0x3000
+                0x0000000000003000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x3000)
+OUTPUT(uart_test.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0x98
+ .debug_ranges  0x0000000000000000       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/uart_test.o
+ .debug_ranges  0x0000000000000030       0x48 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000078       0x10 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/software/uart_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_ranges  0x0000000000000088       0x10 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)

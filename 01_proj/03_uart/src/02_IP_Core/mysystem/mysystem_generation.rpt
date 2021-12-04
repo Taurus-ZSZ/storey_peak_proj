@@ -1,5 +1,5 @@
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem.qsys --block-symbol-file --output-directory=/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem --family="Stratix V" --part=5SGSMD5K1F40C1
+Info: qsys-generate /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem.qsys --block-symbol-file --output-directory=/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem --family="Stratix V" --part=5SGSMD5K1F40C1
 Progress: Loading 02_IP_Core/mysystem.qsys
 Progress: Reading input file
 Progress: Adding clk_0 [clock_source 18.1]
@@ -16,6 +16,8 @@ Progress: Adding pio_led [altera_avalon_pio 18.1]
 Progress: Parameterizing module pio_led
 Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
 Progress: Parameterizing module sysid
+Progress: Adding uart_0 [altera_avalon_uart 18.1]
+Progress: Parameterizing module uart_0
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
@@ -28,7 +30,7 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem.qsys --synthesis=VERILOG --output-directory=/opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem/synthesis --family="Stratix V" --part=5SGSMD5K1F40C1
+Info: qsys-generate /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem.qsys --synthesis=VERILOG --output-directory=/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem/synthesis --family="Stratix V" --part=5SGSMD5K1F40C1
 Progress: Loading 02_IP_Core/mysystem.qsys
 Progress: Reading input file
 Progress: Adding clk_0 [clock_source 18.1]
@@ -45,6 +47,8 @@ Progress: Adding pio_led [altera_avalon_pio 18.1]
 Progress: Parameterizing module pio_led
 Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
 Progress: Parameterizing module sysid
+Progress: Adding uart_0 [altera_avalon_uart 18.1]
+Progress: Parameterizing module uart_0
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
@@ -56,51 +60,56 @@ Info: mysystem.sysid: Time stamp will be automatically updated when this compone
 Info: mysystem: Generating mysystem "mysystem" for QUARTUS_SYNTH
 Info: nios2: "mysystem" instantiated altera_nios2_gen2 "nios2"
 Info: onchip_ram: Starting RTL generation for module 'mysystem_onchip_ram'
-Info: onchip_ram:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=mysystem_onchip_ram --dir=/tmp/alt8937_7801651217175786589.dir/0002_onchip_ram_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8937_7801651217175786589.dir/0002_onchip_ram_gen//mysystem_onchip_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_ram:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=mysystem_onchip_ram --dir=/tmp/alt8944_6924289505609665904.dir/0002_onchip_ram_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8944_6924289505609665904.dir/0002_onchip_ram_gen//mysystem_onchip_ram_component_configuration.pl  --do_build_sim=0  ]
 Info: onchip_ram: Done RTL generation for module 'mysystem_onchip_ram'
 Info: onchip_ram: "mysystem" instantiated altera_avalon_onchip_memory2 "onchip_ram"
 Info: onchip_rom: Starting RTL generation for module 'mysystem_onchip_rom'
-Info: onchip_rom:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=mysystem_onchip_rom --dir=/tmp/alt8937_7801651217175786589.dir/0003_onchip_rom_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8937_7801651217175786589.dir/0003_onchip_rom_gen//mysystem_onchip_rom_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_rom:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=mysystem_onchip_rom --dir=/tmp/alt8944_6924289505609665904.dir/0003_onchip_rom_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8944_6924289505609665904.dir/0003_onchip_rom_gen//mysystem_onchip_rom_component_configuration.pl  --do_build_sim=0  ]
 Info: onchip_rom: Done RTL generation for module 'mysystem_onchip_rom'
 Info: onchip_rom: "mysystem" instantiated altera_avalon_onchip_memory2 "onchip_rom"
 Info: pio_intr: Starting RTL generation for module 'mysystem_pio_intr'
-Info: pio_intr:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=mysystem_pio_intr --dir=/tmp/alt8937_7801651217175786589.dir/0004_pio_intr_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8937_7801651217175786589.dir/0004_pio_intr_gen//mysystem_pio_intr_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_intr:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=mysystem_pio_intr --dir=/tmp/alt8944_6924289505609665904.dir/0004_pio_intr_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8944_6924289505609665904.dir/0004_pio_intr_gen//mysystem_pio_intr_component_configuration.pl  --do_build_sim=0  ]
 Info: pio_intr: Done RTL generation for module 'mysystem_pio_intr'
 Info: pio_intr: "mysystem" instantiated altera_avalon_pio "pio_intr"
 Info: pio_led: Starting RTL generation for module 'mysystem_pio_led'
-Info: pio_led:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=mysystem_pio_led --dir=/tmp/alt8937_7801651217175786589.dir/0005_pio_led_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8937_7801651217175786589.dir/0005_pio_led_gen//mysystem_pio_led_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_led:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=mysystem_pio_led --dir=/tmp/alt8944_6924289505609665904.dir/0005_pio_led_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8944_6924289505609665904.dir/0005_pio_led_gen//mysystem_pio_led_component_configuration.pl  --do_build_sim=0  ]
 Info: pio_led: Done RTL generation for module 'mysystem_pio_led'
 Info: pio_led: "mysystem" instantiated altera_avalon_pio "pio_led"
 Info: sysid: "mysystem" instantiated altera_avalon_sysid_qsys "sysid"
+Info: uart_0: Starting RTL generation for module 'mysystem_uart_0'
+Info: uart_0:   Generation command is [exec /opt/altera/18.1/quartus/linux64/perl/bin/perl -I /opt/altera/18.1/quartus/linux64/perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart -- /opt/altera/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart/generate_rtl.pl --name=mysystem_uart_0 --dir=/tmp/alt8944_6924289505609665904.dir/0007_uart_0_gen/ --quartus_dir=/opt/altera/18.1/quartus --verilog --config=/tmp/alt8944_6924289505609665904.dir/0007_uart_0_gen//mysystem_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: uart_0: Done RTL generation for module 'mysystem_uart_0'
+Info: uart_0: "mysystem" instantiated altera_avalon_uart "uart_0"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
 Info: mm_interconnect_0: "mysystem" instantiated altera_mm_interconnect "mm_interconnect_0"
 Info: irq_mapper: "mysystem" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "mysystem" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'mysystem_nios2_cpu'
-Info: cpu:   Generation command is [exec /opt/altera/18.1/quartus/linux64//eperlcmd -I /opt/altera/18.1/quartus/linux64//perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=mysystem_nios2_cpu --dir=/tmp/alt8937_7801651217175786589.dir/0009_cpu_gen/ --quartus_bindir=/opt/altera/18.1/quartus/linux64/ --verilog --config=/tmp/alt8937_7801651217175786589.dir/0009_cpu_gen//mysystem_nios2_cpu_processor_configuration.pl  --do_build_sim=0  ]
-Info: cpu: # 2021.11.07 02:02:11 (*) Starting Nios II generation
-Info: cpu: # 2021.11.07 02:02:11 (*)   Checking for plaintext license.
-Info: cpu: # 2021.11.07 02:02:12 (*)   Plaintext license not found.
-Info: cpu: # 2021.11.07 02:02:12 (*)   Checking for encrypted license (non-evaluation).
-Info: cpu: # 2021.11.07 02:02:13 (*)   Encrypted license found.  SOF will not be time-limited.
-Info: cpu: # 2021.11.07 02:02:13 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2021.11.07 02:02:13 (*)   Creating all objects for CPU
-Info: cpu: # 2021.11.07 02:02:13 (*)     Testbench
-Info: cpu: # 2021.11.07 02:02:13 (*)     Instruction decoding
-Info: cpu: # 2021.11.07 02:02:13 (*)       Instruction fields
-Info: cpu: # 2021.11.07 02:02:13 (*)       Instruction decodes
-Info: cpu: # 2021.11.07 02:02:14 (*)       Signals for RTL simulation waveforms
-Info: cpu: # 2021.11.07 02:02:14 (*)       Instruction controls
-Info: cpu: # 2021.11.07 02:02:14 (*)     Pipeline frontend
-Info: cpu: # 2021.11.07 02:02:14 (*)     Pipeline backend
-Info: cpu: # 2021.11.07 02:02:17 (*)   Generating RTL from CPU objects
-Info: cpu: # 2021.11.07 02:02:19 (*)   Creating encrypted RTL
-Info: cpu: # 2021.11.07 02:02:20 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec /opt/altera/18.1/quartus/linux64//eperlcmd -I /opt/altera/18.1/quartus/linux64//perl/lib -I /opt/altera/18.1/quartus/sopc_builder/bin/europa -I /opt/altera/18.1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/18.1/quartus/sopc_builder/bin -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /opt/altera/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=mysystem_nios2_cpu --dir=/tmp/alt8944_6924289505609665904.dir/0010_cpu_gen/ --quartus_bindir=/opt/altera/18.1/quartus/linux64/ --verilog --config=/tmp/alt8944_6924289505609665904.dir/0010_cpu_gen//mysystem_nios2_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2021.11.13 11:39:59 (*) Starting Nios II generation
+Info: cpu: # 2021.11.13 11:39:59 (*)   Checking for plaintext license.
+Info: cpu: # 2021.11.13 11:40:01 (*)   Plaintext license not found.
+Info: cpu: # 2021.11.13 11:40:01 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2021.11.13 11:40:03 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2021.11.13 11:40:03 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.11.13 11:40:03 (*)   Creating all objects for CPU
+Info: cpu: # 2021.11.13 11:40:03 (*)     Testbench
+Info: cpu: # 2021.11.13 11:40:03 (*)     Instruction decoding
+Info: cpu: # 2021.11.13 11:40:03 (*)       Instruction fields
+Info: cpu: # 2021.11.13 11:40:04 (*)       Instruction decodes
+Info: cpu: # 2021.11.13 11:40:05 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2021.11.13 11:40:05 (*)       Instruction controls
+Info: cpu: # 2021.11.13 11:40:05 (*)     Pipeline frontend
+Info: cpu: # 2021.11.13 11:40:05 (*)     Pipeline backend
+Info: cpu: # 2021.11.13 11:40:09 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.11.13 11:40:12 (*)   Creating encrypted RTL
+Info: cpu: # 2021.11.13 11:40:13 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'mysystem_nios2_cpu'
 Info: cpu: "nios2" instantiated altera_nios2_gen2_unit "cpu"
 Info: nios2_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_data_master_translator"
@@ -113,20 +122,20 @@ Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_
 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
 Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
 Info: nios2_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_data_master_limiter"
-Info: Reusing file /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem/synthesis/submodules/altera_avalon_sc_fifo.v
 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
 Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
 Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
-Info: Reusing file /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
 Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
-Info: Reusing file /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
-Info: Reusing file /opt/FPGA_work/04_SOC/01_Nios_II/01_proj/02_led_intr/src/02_IP_Core/mysystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/03_uart/src/02_IP_Core/mysystem/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
-Info: mysystem: Done "mysystem" with 31 modules, 52 files
+Info: mysystem: Done "mysystem" with 32 modules, 53 files
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis

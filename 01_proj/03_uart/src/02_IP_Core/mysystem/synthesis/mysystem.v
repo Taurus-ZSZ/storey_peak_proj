@@ -7,7 +7,9 @@ module mysystem (
 		input  wire       clk_clk,         //      clk.clk
 		input  wire [1:0] pio_intr_export, // pio_intr.export
 		inout  wire [7:0] pio_led_export,  //  pio_led.export
-		input  wire       reset_reset_n    //    reset.reset_n
+		input  wire       reset_reset_n,   //    reset.reset_n
+		input  wire       uart_0_rxd,      //   uart_0.rxd
+		output wire       uart_0_txd       //         .txd
 	);
 
 	wire  [31:0] nios2_data_master_readdata;                          // mm_interconnect_0:nios2_data_master_readdata -> nios2:d_readdata
@@ -59,10 +61,18 @@ module mysystem (
 	wire   [1:0] mm_interconnect_0_pio_intr_s1_address;               // mm_interconnect_0:pio_intr_s1_address -> pio_intr:address
 	wire         mm_interconnect_0_pio_intr_s1_write;                 // mm_interconnect_0:pio_intr_s1_write -> pio_intr:write_n
 	wire  [31:0] mm_interconnect_0_pio_intr_s1_writedata;             // mm_interconnect_0:pio_intr_s1_writedata -> pio_intr:writedata
+	wire         mm_interconnect_0_uart_0_s1_chipselect;              // mm_interconnect_0:uart_0_s1_chipselect -> uart_0:chipselect
+	wire  [15:0] mm_interconnect_0_uart_0_s1_readdata;                // uart_0:readdata -> mm_interconnect_0:uart_0_s1_readdata
+	wire   [2:0] mm_interconnect_0_uart_0_s1_address;                 // mm_interconnect_0:uart_0_s1_address -> uart_0:address
+	wire         mm_interconnect_0_uart_0_s1_read;                    // mm_interconnect_0:uart_0_s1_read -> uart_0:read_n
+	wire         mm_interconnect_0_uart_0_s1_begintransfer;           // mm_interconnect_0:uart_0_s1_begintransfer -> uart_0:begintransfer
+	wire         mm_interconnect_0_uart_0_s1_write;                   // mm_interconnect_0:uart_0_s1_write -> uart_0:write_n
+	wire  [15:0] mm_interconnect_0_uart_0_s1_writedata;               // mm_interconnect_0:uart_0_s1_writedata -> uart_0:writedata
 	wire         irq_mapper_receiver0_irq;                            // pio_led:irq -> irq_mapper:receiver0_irq
 	wire         irq_mapper_receiver1_irq;                            // pio_intr:irq -> irq_mapper:receiver1_irq
+	wire         irq_mapper_receiver2_irq;                            // uart_0:irq -> irq_mapper:receiver2_irq
 	wire  [31:0] nios2_irq_irq;                                       // irq_mapper:sender_irq -> nios2:irq
-	wire         rst_controller_reset_out_reset;                      // rst_controller:reset_out -> [irq_mapper:reset, mm_interconnect_0:nios2_reset_reset_bridge_in_reset_reset, nios2:reset_n, onchip_ram:reset, onchip_rom:reset, pio_intr:reset_n, pio_led:reset_n, rst_translator:in_reset, sysid:reset_n]
+	wire         rst_controller_reset_out_reset;                      // rst_controller:reset_out -> [irq_mapper:reset, mm_interconnect_0:nios2_reset_reset_bridge_in_reset_reset, nios2:reset_n, onchip_ram:reset, onchip_rom:reset, pio_intr:reset_n, pio_led:reset_n, rst_translator:in_reset, sysid:reset_n, uart_0:reset_n]
 	wire         rst_controller_reset_out_reset_req;                  // rst_controller:reset_req -> [nios2:reset_req, onchip_ram:reset_req, onchip_rom:reset_req, rst_translator:reset_req_in]
 	wire         nios2_debug_reset_request_reset;                     // nios2:debug_reset_request -> rst_controller:reset_in1
 
@@ -157,6 +167,21 @@ module mysystem (
 		.address  (mm_interconnect_0_sysid_control_slave_address)   //              .address
 	);
 
+	mysystem_uart_0 uart_0 (
+		.clk           (clk_clk),                                   //                 clk.clk
+		.reset_n       (~rst_controller_reset_out_reset),           //               reset.reset_n
+		.address       (mm_interconnect_0_uart_0_s1_address),       //                  s1.address
+		.begintransfer (mm_interconnect_0_uart_0_s1_begintransfer), //                    .begintransfer
+		.chipselect    (mm_interconnect_0_uart_0_s1_chipselect),    //                    .chipselect
+		.read_n        (~mm_interconnect_0_uart_0_s1_read),         //                    .read_n
+		.write_n       (~mm_interconnect_0_uart_0_s1_write),        //                    .write_n
+		.writedata     (mm_interconnect_0_uart_0_s1_writedata),     //                    .writedata
+		.readdata      (mm_interconnect_0_uart_0_s1_readdata),      //                    .readdata
+		.rxd           (uart_0_rxd),                                // external_connection.export
+		.txd           (uart_0_txd),                                //                    .export
+		.irq           (irq_mapper_receiver2_irq)                   //                 irq.irq
+	);
+
 	mysystem_mm_interconnect_0 mm_interconnect_0 (
 		.clk_0_clk_clk                           (clk_clk),                                             //                         clk_0_clk.clk
 		.nios2_reset_reset_bridge_in_reset_reset (rst_controller_reset_out_reset),                      // nios2_reset_reset_bridge_in_reset.reset
@@ -208,7 +233,14 @@ module mysystem (
 		.pio_led_s1_writedata                    (mm_interconnect_0_pio_led_s1_writedata),              //                                  .writedata
 		.pio_led_s1_chipselect                   (mm_interconnect_0_pio_led_s1_chipselect),             //                                  .chipselect
 		.sysid_control_slave_address             (mm_interconnect_0_sysid_control_slave_address),       //               sysid_control_slave.address
-		.sysid_control_slave_readdata            (mm_interconnect_0_sysid_control_slave_readdata)       //                                  .readdata
+		.sysid_control_slave_readdata            (mm_interconnect_0_sysid_control_slave_readdata),      //                                  .readdata
+		.uart_0_s1_address                       (mm_interconnect_0_uart_0_s1_address),                 //                         uart_0_s1.address
+		.uart_0_s1_write                         (mm_interconnect_0_uart_0_s1_write),                   //                                  .write
+		.uart_0_s1_read                          (mm_interconnect_0_uart_0_s1_read),                    //                                  .read
+		.uart_0_s1_readdata                      (mm_interconnect_0_uart_0_s1_readdata),                //                                  .readdata
+		.uart_0_s1_writedata                     (mm_interconnect_0_uart_0_s1_writedata),               //                                  .writedata
+		.uart_0_s1_begintransfer                 (mm_interconnect_0_uart_0_s1_begintransfer),           //                                  .begintransfer
+		.uart_0_s1_chipselect                    (mm_interconnect_0_uart_0_s1_chipselect)               //                                  .chipselect
 	);
 
 	mysystem_irq_mapper irq_mapper (
@@ -216,6 +248,7 @@ module mysystem (
 		.reset         (rst_controller_reset_out_reset), // clk_reset.reset
 		.receiver0_irq (irq_mapper_receiver0_irq),       // receiver0.irq
 		.receiver1_irq (irq_mapper_receiver1_irq),       // receiver1.irq
+		.receiver2_irq (irq_mapper_receiver2_irq),       // receiver2.irq
 		.sender_irq    (nios2_irq_irq)                   //    sender.irq
 	);
 
