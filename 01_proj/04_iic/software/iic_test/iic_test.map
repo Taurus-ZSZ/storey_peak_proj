@@ -1,0 +1,965 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+                              obj/default/hello_world_small.o (memset)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+                              obj/default/hello_world_small.o (printf)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+                              obj/default/hello_world_small.o (puts)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o) (strlen)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o) (_impure_ptr)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o) (errno)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o) (__udivsi3)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o (alt_load)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o (alt_main)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+                              obj/default/hello_world_small.o (alt_putstr)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+                              /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o) (write)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+                              obj/default/hello_world_small.o (alt_avalon_i2c_register_optional_irq_handler)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o) (altera_avalon_jtag_uart_write)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o) (alt_busy_sleep)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o) (alt_dev_llist_insert)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o) (alt_errno)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o) (alt_find_dev)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o) (alt_ic_isr_register)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o) (alt_irq_active)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+/opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+/opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+                              /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o) (memcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000000000 0x0000000000000020
+onchip_rom       0x0000000000000020 0x0000000000009fe0
+onchip_ram_BEFORE_EXCEPTION 0x0000000000020000 0x0000000000000020
+onchip_ram       0x0000000000020020 0x0000000000009fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libstdc++.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libm.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+START GROUP
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+LOAD /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libm.a
+END GROUP
+LOAD /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a
+                0x0000000000000000                __alt_mem_onchip_rom = 0x0
+                0x0000000000020000                __alt_mem_onchip_ram = 0x20000
+
+.entry          0x0000000000000000       0x20
+ *(.entry)
+ .entry         0x0000000000000000       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000000000                __reset
+                0x000000000000001c                _exit
+
+.exceptions     0x0000000000020020      0x168
+                0x0000000000020020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000020020        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000020020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000020020        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000020020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000020020       0x54 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000020074       0x10 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000020084        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000020088        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000002008c        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000002008c        0x8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000020094       0x14 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000200a8       0x54 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000200fc       0x60 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000200fc                alt_irq_handler
+ .exceptions    0x000000000002015c       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000002015c                alt_instruction_exception_entry
+                0x0000000000020188                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000020020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000020188     0x2180
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000020188       0x4c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+                0x0000000000020188                _start
+ .text          0x00000000000201d4        0x0 obj/default/hello_world_small.o
+ .text.startup  0x00000000000201d4      0x10c obj/default/hello_world_small.o
+                0x00000000000201d4                main
+ .text          0x00000000000202e0        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .text.memset   0x00000000000202e0       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+                0x00000000000202e0                memset
+ .text          0x0000000000020300        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000020300       0x3c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+                0x0000000000020300                _printf_r
+ .text.printf   0x000000000002033c       0x4c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+                0x000000000002033c                printf
+ .text          0x0000000000020388        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .text._puts_r  0x0000000000020388       0x80 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+                0x0000000000020388                _puts_r
+ .text.puts     0x0000000000020408       0x14 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+                0x0000000000020408                puts
+ .text          0x000000000002041c        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x000000000002041c       0x1c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                0x000000000002041c                strlen
+ .text          0x0000000000020438        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .text.print_repeat
+                0x0000000000020438       0x6c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .text.___vfprintf_internal_r
+                0x00000000000204a4      0x524 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+                0x00000000000204a4                ___vfprintf_internal_r
+ .text.__vfprintf_internal
+                0x00000000000209c8       0x1c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+                0x00000000000209c8                __vfprintf_internal
+ .text          0x00000000000209e4        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x00000000000209e4       0xb8 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x00000000000209e4                __sfvwrite_small_dev
+ .text          0x0000000000020a9c        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .text          0x0000000000020a9c        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x0000000000020a9c       0x58 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+                0x0000000000020a9c                _write_r
+ .text          0x0000000000020af4        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000020af4      0x1b4 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+                0x0000000000020af4                __divsi3
+                0x0000000000020b78                __modsi3
+                0x0000000000020bec                __udivsi3
+                0x0000000000020c50                __umodsi3
+ .text          0x0000000000020ca8       0xe0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000000020ca8                alt_load
+ .text          0x0000000000020d88       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000020d88                alt_main
+ .text          0x0000000000020db4       0x38 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+                0x0000000000020db4                alt_putstr
+ .text          0x0000000000020dec       0x60 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+                0x0000000000020dec                write
+ .text          0x0000000000020e4c       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000000020e4c                alt_irq_init
+                0x0000000000020e6c                alt_sys_init
+ .text          0x0000000000020e78     0x1120 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+                0x0000000000020e78                alt_avalon_i2c_register_optional_irq_handler
+                0x0000000000020e94                alt_avalon_i2c_register_callback
+                0x0000000000020ea4                alt_avalon_i2c_open
+                0x0000000000020eac                alt_avalon_i2c_enable
+                0x0000000000020ef4                alt_avalon_i2c_disable
+                0x0000000000020f10                alt_avalon_i2c_master_config_get
+                0x0000000000020f54                alt_avalon_i2c_master_config_set
+                0x0000000000020fac                alt_avalon_i2c_master_config_speed_get
+                0x0000000000020ff8                alt_avalon_i2c_master_config_speed_set
+                0x0000000000021084                alt_avalon_i2c_is_busy
+                0x0000000000021094                alt_avalon_i2c_rx_read_available
+                0x00000000000210cc                alt_avalon_i2c_rx_read
+                0x000000000002114c                alt_avalon_i2c_master_target_get
+                0x0000000000021158                alt_avalon_i2c_master_target_set
+                0x0000000000021160                alt_avalon_i2c_check_nack
+                0x000000000002117c                alt_avalon_i2c_check_arblost
+                0x0000000000021198                alt_avalon_i2c_cmd_write
+                0x0000000000021260                alt_avalon_i2c_send_address
+                0x00000000000212d8                alt_avalon_i2c_master_transmit
+                0x0000000000021410                alt_avalon_i2c_master_receive
+                0x00000000000215b8                alt_avalon_i2c_int_status_get
+                0x00000000000215d0                alt_avalon_i2c_int_raw_status_get
+                0x00000000000215e0                alt_avalon_i2c_int_clear
+                0x00000000000215ec                alt_avalon_i2c_enabled_ints_get
+                0x0000000000021600                alt_avalon_i2c_int_disable
+                0x00000000000216ac                alt_avalon_i2c_int_enable
+                0x00000000000217ac                alt_avalon_i2c_interrupt_transaction_status
+                0x0000000000021890                alt_avalon_i2c_rx_fifo_threshold_get
+                0x00000000000218a8                alt_avalon_i2c_rx_fifo_threshold_set
+                0x00000000000218d0                alt_avalon_i2c_master_receive_using_interrupts
+                0x0000000000021a50                alt_avalon_i2c_master_rx
+                0x0000000000021b38                alt_avalon_i2c_tfr_cmd_fifo_threshold_get
+                0x0000000000021b50                alt_avalon_i2c_tfr_cmd_fifo_threshold_set
+                0x0000000000021b7c                alt_avalon_i2c_init
+                0x0000000000021c2c                alt_avalon_i2c_master_transmit_using_interrupts
+                0x0000000000021d9c                alt_avalon_i2c_master_tx
+                0x0000000000021e60                alt_avalon_i2c_master_tx_rx
+ .text          0x0000000000021f98       0x34 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000021f98                altera_avalon_jtag_uart_write
+ .text          0x0000000000021fcc       0x60 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000021fcc                alt_busy_sleep
+ .text          0x000000000002202c       0x18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000000000002202c                alt_dcache_flush_all
+ .text          0x0000000000022044       0x6c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000022044                alt_dev_llist_insert
+ .text          0x00000000000220b0        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000220b0       0x74 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+                0x00000000000220b0                alt_find_dev
+ .text          0x0000000000022124        0xc /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000022124                alt_icache_flush_all
+ .text          0x0000000000022130       0x8c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+                0x0000000000022130                alt_ic_isr_register
+                0x0000000000022134                alt_ic_irq_enable
+                0x000000000002216c                alt_ic_irq_disable
+                0x00000000000221a4                alt_ic_irq_enabled
+ .text          0x00000000000221bc       0x68 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000000221bc                alt_iic_isr_register
+ .text          0x0000000000022224        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000022224        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000022224        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000022224        0x8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000022224                altera_nios2_gen2_irq_init
+ .text          0x000000000002222c        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .text          0x000000000002222c       0x38 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x000000000002222c                alt_icache_flush
+ .text          0x0000000000022264       0x74 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000022264                alt_exception_cause_generated_bad_addr
+ .text          0x00000000000222d8        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+ .text.memcmp   0x00000000000222d8       0x30 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+                0x00000000000222d8                memcmp
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000022308                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000022308                . = ALIGN (0x4)
+
+.rodata         0x0000000000022308       0x8c
+                0x0000000000022308                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000022308                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000022308       0x89 obj/default/hello_world_small.o
+ .rodata.str1.4
+                0x0000000000022391       0x8c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+                                          0x2 (size before relaxing)
+ .rodata.str1.4
+                0x0000000000022391        0xd /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ *(.rodata1)
+                0x0000000000022420                . = ALIGN (0x4)
+ *fill*         0x0000000000022391        0x3 
+                0x0000000000022394                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000022308                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000022394      0x134 load address 0x00000000000224c8
+                0x0000000000022394                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000022394                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000022394        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000022394        0x0 obj/default/hello_world_small.o
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x0000000000022394        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000022394       0xe0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000022474        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .data          0x0000000000022474        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000022474        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .data          0x0000000000022474        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x0000000000022474        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x0000000000022474        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .data          0x0000000000022474        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .data          0x0000000000022474       0x38 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .data          0x00000000000224ac        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x00000000000224ac        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+                0x000000000002a4ac                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._global_impure_ptr
+                0x00000000000224ac        0x4 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+                0x00000000000224ac                _global_impure_ptr
+ .sdata._impure_ptr
+                0x00000000000224b0        0x4 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+                0x00000000000224b0                _impure_ptr
+ .sdata         0x00000000000224b4        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x00000000000224b4                jtag_uart
+ .sdata         0x00000000000224b8        0x8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+                0x00000000000224b8                alt_avalon_i2c_list
+ .sdata         0x00000000000224c0        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+                0x00000000000224c0                alt_errno
+ .sdata         0x00000000000224c4        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x00000000000224c4                alt_priority_mask
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00000000000224c8                . = ALIGN (0x4)
+                0x00000000000224c8                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x00000000000224c8                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00000000000224c8                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00000000000225fc      0x118
+                0x00000000000225fc                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00000000000225fc        0x4 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+                0x00000000000225fc                errno
+ .sbss          0x0000000000022600        0xc /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000000022600                alt_envp
+                0x0000000000022604                alt_argv
+                0x0000000000022608                alt_argc
+ .sbss          0x000000000002260c        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x000000000002260c                alt_irq_active
+ .sbss          0x0000000000022610        0x4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000022610                alt_instruction_exception_handler
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000022614        0x0 obj/default/hello_world_small.o
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000022614        0x0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000022614        0x0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+ *(COMMON)
+ COMMON         0x0000000000022614      0x100 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000022614                alt_irq
+                0x0000000000022714                . = ALIGN (0x4)
+                0x0000000000022714                __bss_end = ABSOLUTE (.)
+
+.onchip_rom     0x0000000000000020        0x0 load address 0x0000000000022714
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_start, ABSOLUTE (.))
+ *(.onchip_rom .onchip_rom. onchip_rom.*)
+                0x0000000000000020                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_onchip_rom_load_addr, LOADADDR (.onchip_rom))
+
+.onchip_ram     0x0000000000022714        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_start, ABSOLUTE (.))
+ *(.onchip_ram .onchip_ram. onchip_ram.*)
+                0x0000000000022714                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_end, ABSOLUTE (.))
+                0x0000000000022714                _end = ABSOLUTE (.)
+                0x0000000000022714                end = ABSOLUTE (.)
+                0x0000000000022714                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_ram_load_addr, LOADADDR (.onchip_ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/hello_world_small.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x498
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000048       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000068       0x28 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x0000000000000090       0x28 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x00000000000000b8       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000000d8       0x30 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x0000000000000108       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x0000000000000128       0x18 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000140       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x0000000000000160       0x18 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000178       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000198       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000218       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000238       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_aranges
+                0x0000000000000258       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000278       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x0000000000000298       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000000000002d8       0x18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000002f0       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000310       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000330       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x0000000000000350       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000370       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000000000003c0       0x18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000000000003d8       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000003f8       0x38 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000430       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000450       0x28 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000478       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x7095
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x81 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000081      0x54a obj/default/hello_world_small.o
+ .debug_info    0x00000000000005cb       0xdc /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_info    0x00000000000006a7      0x699 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_info    0x0000000000000d40      0x66d /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_info    0x00000000000013ad       0xc9 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000001476      0xb2b /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x0000000000001fa1      0x62b /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x00000000000025cc      0x5a9 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000000000002b75      0x630 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_info    0x00000000000031a5       0x8a /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x000000000000322f      0x2c6 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_info    0x00000000000034f5      0x1c9 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000000000036be      0x169 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000003827      0x13a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_info    0x0000000000003961      0x1c7 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_info    0x0000000000003b28      0x2c4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000003dec     0x1c18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_info    0x0000000000005a04      0x197 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000005b9b       0xd8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x0000000000005c73       0xa6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000005d19      0x1b3 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000005ecc       0xa6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000005f72      0x32d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x000000000000629f       0xb8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000006357      0x38a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00000000000066e1      0x232 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000006913       0x8a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000699d      0x184 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000006b21       0x88 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000006ba9       0x92 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000006c3b       0x90 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000006ccb       0xde /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000006da9      0x1f8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000006fa1       0xf4 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug_abbrev   0x0000000000000000     0x2464
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x1a2 obj/default/hello_world_small.o
+ .debug_abbrev  0x00000000000001b4       0x8e /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000242      0x1ee /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x0000000000000430      0x1d6 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000000000000606       0x7f /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000685      0x2a1 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x0000000000000926      0x1bc /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000000ae2      0x14a /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000c2c      0x1a6 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000000dd2       0x37 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000000e09      0x10e /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000000f17       0xd8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000fef       0xee /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000010dd       0xd3 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_abbrev  0x00000000000011b0      0x12e /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x00000000000012de      0x150 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000142e      0x47c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_abbrev  0x00000000000018aa       0xd5 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000000000000197f       0x8d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000000000001a0c       0x5a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001a66      0x11c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000001b82       0x5a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001bdc      0x125 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000001d01       0x6f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001d70      0x1a0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001f10      0x19c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00000000000020ac       0x12 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000000000020be      0x120 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000000000021de       0x40 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x000000000000221e       0x42 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000002260       0x12 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000002272       0x9b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x000000000000230d       0xd8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x00000000000023e5       0x7f /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug_line     0x0000000000000000     0x282b
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x297 obj/default/hello_world_small.o
+ .debug_line    0x0000000000000309      0x15d /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_line    0x0000000000000466      0x203 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_line    0x0000000000000669      0x206 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_line    0x000000000000086f      0x15c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x00000000000009cb      0x352 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x0000000000000d1d      0x1f0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x0000000000000f0d      0x156 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001063      0x1ed /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000001250       0x5f /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x00000000000012af      0x105 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_line    0x00000000000013b4       0xa4 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000001458       0xbd /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000001515       0x9f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_line    0x00000000000015b4      0x168 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_line    0x000000000000171c      0x11b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000001837      0x49a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_line    0x0000000000001cd1       0xf0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000001dc1       0xa6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000001e67       0x5a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001ec1       0xd8 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000001f99       0x51 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000001fea      0x106 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000000000020f0       0x6e /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000000000000215e       0xf1 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_line    0x000000000000224f       0xd6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000002325       0x6b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000002390       0xa5 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000002435       0x50 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000002485       0x50 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x00000000000024d5       0xb3 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000002588       0x7d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000002605       0xc6 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x00000000000026cb      0x160 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug_frame    0x0000000000000000      0xa50
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x34 obj/default/hello_world_small.o
+ .debug_frame   0x0000000000000034       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000054       0x48 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x000000000000009c       0x48 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x00000000000000e4       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000104       0x8c /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x0000000000000190       0x58 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x00000000000001e8       0x38 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000220       0x50 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000000000000270       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000002a0       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000002cc       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_frame   0x00000000000002fc       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000328       0x3c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000364      0x4c0 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_frame   0x0000000000000824       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000844       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x0000000000000864       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000884       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000008b0       0x3c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000008ec       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000000000000090c       0x50 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x000000000000095c       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x000000000000098c       0x34 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000000000009c0       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x00000000000009e0       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000a00       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000a30       0x20 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug_str      0x0000000000000000     0x21ee
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x4c7 obj/default/hello_world_small.o
+                                        0x532 (size before relaxing)
+ .debug_str     0x00000000000004c7      0x130 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+                                        0x1dc (size before relaxing)
+ .debug_str     0x00000000000005f7      0x3c0 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+                                        0x501 (size before relaxing)
+ .debug_str     0x00000000000009b7       0x5e /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+                                        0x4ca (size before relaxing)
+ .debug_str     0x0000000000000a15       0x3d /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+                                        0x1e2 (size before relaxing)
+ .debug_str     0x0000000000000a52      0x1f6 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+                                        0x67c (size before relaxing)
+ .debug_str     0x0000000000000c48       0x63 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x4d1 (size before relaxing)
+ .debug_str     0x0000000000000cab       0xee /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-impure.o)
+                                        0x4bb (size before relaxing)
+ .debug_str     0x0000000000000d99       0x45 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+                                        0x4b5 (size before relaxing)
+ .debug_str     0x0000000000000dde       0x3f /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-int_errno.o)
+                                        0x1d5 (size before relaxing)
+ .debug_str     0x0000000000000e1d      0x184 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+                                        0x1cf (size before relaxing)
+ .debug_str     0x0000000000000fa1      0x160 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+                                        0x249 (size before relaxing)
+ .debug_str     0x0000000000001101       0x5e /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_main.o)
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x000000000000115f       0x5d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+                                        0x19d (size before relaxing)
+ .debug_str     0x00000000000011bc       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x00000000000011e8       0x9d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x39f (size before relaxing)
+ .debug_str     0x0000000000001285      0x7c1 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+                                        0xce2 (size before relaxing)
+ .debug_str     0x0000000000001a46       0x2c /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x222 (size before relaxing)
+ .debug_str     0x0000000000001a72       0x33 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                                        0x178 (size before relaxing)
+ .debug_str     0x0000000000001aa5       0x1f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x162 (size before relaxing)
+ .debug_str     0x0000000000001ac4       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1d9 (size before relaxing)
+ .debug_str     0x0000000000001af4       0x14 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_errno.o)
+                                        0x152 (size before relaxing)
+ .debug_str     0x0000000000001b08       0x6d /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x0000000000001b75       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x173 (size before relaxing)
+ .debug_str     0x0000000000001ba5       0xbe /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+                                        0x260 (size before relaxing)
+ .debug_str     0x0000000000001c63       0x37 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x21a (size before relaxing)
+ .debug_str     0x0000000000001c9a       0x3a /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                        0x1a4 (size before relaxing)
+ .debug_str     0x0000000000001cd4       0x17 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x0000000000001ceb       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x169 (size before relaxing)
+ .debug_str     0x0000000000001d0b       0x1b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+                                        0x168 (size before relaxing)
+ .debug_str     0x0000000000001d26      0x48b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x5ad (size before relaxing)
+ .debug_str     0x00000000000021b1       0x3d /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+                                        0x1dc (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x2edd
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x68 obj/default/hello_world_small.o
+ .debug_loc     0x0000000000000068       0xa5 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_loc     0x000000000000010d       0xc6 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_loc     0x00000000000001d3       0x97 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x000000000000026a       0x1e /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x0000000000000288      0x901 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_loc     0x0000000000000b89      0x110 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x0000000000000c99       0xa5 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x0000000000000d3e      0x4ce /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_loc     0x000000000000120c       0x37 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_putstr.o)
+ .debug_loc     0x0000000000001243       0xcf /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_loc     0x0000000000001312       0x21 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000001333     0x1462 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_loc     0x0000000000002795       0x8b /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x0000000000002820       0x98 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_loc     0x00000000000028b8       0x1f /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000000000028d7       0x7e /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x0000000000002955       0x7e /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x00000000000029d3      0x170 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x0000000000002b43      0x193 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x0000000000002cd6       0x72 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000000000002d48       0x52 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x0000000000002d9a       0xaf /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_loc     0x0000000000002e49       0x94 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x60
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000030       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                0x000000000002a000                __alt_data_end = 0x2a000
+                0x000000000002a000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x2a000)
+OUTPUT(iic_test.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x360
+ .debug_ranges  0x0000000000000000       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/hello_world_small.o
+ .debug_ranges  0x0000000000000030       0x10 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memset.o)
+ .debug_ranges  0x0000000000000040       0x18 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-printf.o)
+ .debug_ranges  0x0000000000000058       0x18 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-puts.o)
+ .debug_ranges  0x0000000000000070       0x10 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000080       0xc8 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-vfprintf.o)
+ .debug_ranges  0x0000000000000148       0x28 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x0000000000000170       0x10 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000180       0x60 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/mhw-mulx/libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x00000000000001e0       0x48 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000228       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_write.o)
+ .debug_ranges  0x0000000000000248       0x58 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(altera_avalon_i2c.o)
+ .debug_ranges  0x00000000000002a0       0x20 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_ranges  0x00000000000002c0       0x28 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000000000002e8       0x10 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000002f8       0x30 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x0000000000000328       0x10 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_ranges  0x0000000000000338       0x18 /opt/FPGA_work/04_SOC/stratix_v_nios_II/01_proj/04_iic/software/iic_test_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000350       0x10 /opt/altera/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/mhw-mulx/libsmallc.a(lib_a-memcmp.o)

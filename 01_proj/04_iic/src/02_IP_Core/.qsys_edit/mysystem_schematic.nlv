@@ -1,0 +1,26 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst mysystem.pio_led -pg 1 -lvl 3 -y 430
+preplace inst mysystem.nios2.cpu -pg 1
+preplace inst mysystem -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst mysystem.nios2 -pg 1 -lvl 2 -y 460
+preplace inst mysystem.onchip_rom -pg 1 -lvl 3 -y 230
+preplace inst mysystem.sysid -pg 1 -lvl 3 -y 650
+preplace inst mysystem.pio_intr -pg 1 -lvl 3 -y 310
+preplace inst mysystem.onchip_ram -pg 1 -lvl 3 -y 150
+preplace inst mysystem.nios2.clock_bridge -pg 1
+preplace inst mysystem.nios2.reset_bridge -pg 1
+preplace inst mysystem.i2c_idt -pg 1 -lvl 3 -y 30
+preplace inst mysystem.clk_0 -pg 1 -lvl 1 -y 480
+preplace inst mysystem.jtag_uart -pg 1 -lvl 3 -y 550
+preplace netloc EXPORT<net_container>mysystem</net_container>(SLAVE)pio_led.external_connection,(SLAVE)mysystem.pio_led) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc INTERCONNECT<net_container>mysystem</net_container>(SLAVE)sysid.control_slave,(SLAVE)i2c_idt.csr,(MASTER)nios2.data_master,(SLAVE)nios2.debug_mem_slave,(SLAVE)pio_intr.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)nios2.instruction_master,(SLAVE)onchip_ram.s1,(SLAVE)pio_led.s1,(SLAVE)onchip_rom.s1) 1 1 2 370 420 770
+preplace netloc EXPORT<net_container>mysystem</net_container>(SLAVE)mysystem.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>mysystem</net_container>(MASTER)nios2.debug_reset_request,(SLAVE)pio_led.reset,(SLAVE)i2c_idt.reset_sink,(SLAVE)jtag_uart.reset,(SLAVE)onchip_rom.reset1,(MASTER)clk_0.clk_reset,(SLAVE)nios2.reset,(SLAVE)pio_intr.reset,(SLAVE)sysid.reset,(SLAVE)onchip_ram.reset1) 1 1 2 350 400 750
+preplace netloc EXPORT<net_container>mysystem</net_container>(SLAVE)pio_intr.external_connection,(SLAVE)mysystem.pio_intr) 1 0 3 NJ 340 NJ 340 NJ
+preplace netloc FAN_OUT<net_container>mysystem</net_container>(SLAVE)i2c_idt.clock,(SLAVE)sysid.clk,(SLAVE)pio_intr.clk,(MASTER)clk_0.clk,(SLAVE)nios2.clk,(SLAVE)jtag_uart.clk,(SLAVE)onchip_rom.clk1,(SLAVE)pio_led.clk,(SLAVE)onchip_ram.clk1) 1 1 2 330 380 730
+preplace netloc FAN_OUT<net_container>mysystem</net_container>(SLAVE)jtag_uart.irq,(SLAVE)i2c_idt.interrupt_sender,(SLAVE)pio_led.irq,(SLAVE)pio_intr.irq,(MASTER)nios2.irq) 1 2 1 810
+preplace netloc EXPORT<net_container>mysystem</net_container>(SLAVE)i2c_idt.i2c_serial,(SLAVE)mysystem.i2c_idt_i2c_serial) 1 0 3 NJ 100 NJ 100 NJ
+preplace netloc EXPORT<net_container>mysystem</net_container>(SLAVE)clk_0.clk_in,(SLAVE)mysystem.clk) 1 0 1 NJ
+levelinfo -pg 1 0 120 1020
+levelinfo -hier mysystem 130 160 490 860 1010

@@ -39,7 +39,7 @@ help :
 quartus_cpf --help=svf
 
 ```shell
-quartus_cpf -c -q 12.0MHz -g 3.3 -n p 02_led.sof 02_led.svf
+quartus_cpf -c -q 12.0MHz -g 3.3 -n p 04_iic.sof 04_iic.svf
 ```
 
 
